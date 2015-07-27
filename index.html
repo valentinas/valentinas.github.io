@@ -16,36 +16,17 @@
     <div class="wrapper">
       <header>
         <h1>vbakaitis.net</h1>
-        <p>vbakaitis on net</p>
+        <p>Valentinas Bakaitis home page</p>
 
 
-        <p class="view"><a href="https://github.com/valentinas">View My GitHub Profile</a></p>
+        <p class="view"><a href="http://vbakaitis.net">Go back to the front page</a></p>
 
       </header>
       <section>
-        <h3>
-<a id="high-speed-2-port-embedded-usb-hub-design-fe11s-chip" class="anchor" href="#high-speed-2-port-embedded-usb-hub-design-fe11s-chip" aria-hidden="true"><span class="octicon octicon-link"></span></a>High speed 2 port embedded USB hub design (FE1.1S chip)</h3>
+        <a href="FE1.1s_2_port_hub.html">High speed 2 port embedded USB hub design (FE1.1S chip)</a>
 
-<p>I needed a small USB hub that could fit in tight spaces (inside the casing of a mouse or keyboard, etc). The speed is not important here, so I chose the simplest IC I could find. It also meant that the hub was very cheap to make.</p>
 
-<p>I used Eagle to design the PCB. I have never used Eagle before, so I looked around for tutorials and found <a href="https://www.youtube.com/playlist?list=PL868B73617C6F6FAD">these three videos</a> that outline the PCB design basics by <a href="http://www.jeremyblum.com/">Jeremy Blum</a>.</p>
-
-<p>It took me two iterations to debug it and get it right. First version did not have enough decoupling capacitors. I made a false assumption that 0.1uf capacitor would not make any difference in parallel with 10uf capacitor. In reality it protects from the voltage drop in high frequency circuits. I also failed to connect some of the IC pins together.</p>
-
-<p>Part list:</p>
-
-<ul>
-<li>FE1.1s chip (I could not find it on digikey, but aliexpress had plenty on offer for as low as $5 for 10 pieces)</li>
-<li>10uf (106) 0603 capacitor (x3) (digikey has plenty of them, but for prototyping purposes I got a pack of 2000 capacitors of variable values from aliexpress, which only cost me arund $5 including shipping via registered post. It takes a while to get stuff from aliexpress (digikey delivers very fast), but it's much cheaper)</li>
-<li>0.1uf (104) 0603 capacitor (x2) (this was included in the capacitor pack too)</li>
-<li>2.7K 0603 resistor (for this I bough a similar 0603 resistor pack from aliexpress for couple of bucks)</li>
-</ul>
-
-<p>Download Eagle .brd and .sch files.</p>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
