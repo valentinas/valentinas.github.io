@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/vbakaitis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://vbakaitis.net
+  * I am vbakaitis (https://keybase.io/vbakaitis) on keybase.
+  * I have a public key with fingerprint F38B 8EB5 8232 DE1D 2CF9  5351 1E6E BDB7 FC68 9984
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01013965dccef4cb5c4d05cc04975f4a86452513033c37178c6f7116cde5d83876e90a",
+            "fingerprint": "f38b8eb58232de1d2cf953511e6ebdb7fc689984",
+            "host": "keybase.io",
+            "key_id": "1e6ebdb7fc689984",
+            "kid": "01013965dccef4cb5c4d05cc04975f4a86452513033c37178c6f7116cde5d83876e90a",
+            "uid": "0c0d4b94e0b0a6e36b03a6c6e0121819",
+            "username": "vbakaitis"
+        },
+        "service": {
+            "hostname": "vbakaitis.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1443670024,
+    "expire_in": 157680000,
+    "prev": "e2cb2e1d52cafffdedee9a3f3bd0a297e267bd2bc3467b404dcc0b50f939cf16",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtUltsTEEY3tYlbEqaVlJUPBwakbQ1c+5nKwhCBWlEQlqSdWbmP7tH65y1e7SE
+arVe1CUSRCT6QCraB7TVVdKQJqLEelAaWqTEvUIiKm7pgznFi3g0LzPzz/d98/1f
+/sOTxgSCaTOdq50j0RN701JDJLAuozljp0BctkMI7RTKYXSDCgYJL1xuMyEkIIyw
+ZKgKoxQsmRKFygwplCLZ0BRLNnVVVkQFS0iSqKRhTaeqpWGsUgYK0yVdU8FAppAv
+WLYTgXgsbjsel7UknehAFF2URAaYidQyFEnBGFQgjGgWVXXD0GVOjLoJn8HNETMB
+hbbLa/wSHrX3D/x/9r3tlxxFTCaGDIggUwVJJUgyVaoCwiLWseEDExB3zC3A0ZXE
+LDdtz04I1fkCL1faFPxk/Vb+hhQ64HF2LO56LnUr+FPU82Ihn+ntiPnQKiDh3yJh
+YjuMB8kJlRBP2K4jhDBHUs/2VbEsS6qGkCjnC7A9ZschbPsIRVN1xJf/DVRySRAp
+EaEUM0WkpmVZDBiAYUqWRBgyRUMDUdUIEwmVZH6QkcxzRERBliEZ1MKq4Pe11XGF
+kMp9mhGumbAjjulti4NQHdyXNmNsIC0YGD8u3R+xQHBi5p+5+5ScEHjJYo1P84bP
+oQ1rVzY/nk0i798+uHVtcmpw2dS2bmP+lGN1VVuXJqtaWnGk5FlXSUl03rTsOc83
+xoU9NRO7T8qnlR9d+1Jrjiy4/ezdjKLGoWRW3ZW5DTfTP3+pPfD1Tl7brpyexUN3
+OxYN3rt+NK8v1RMauJ5/MDXyJFhS1lzQW1aQG+7P6DrU2nuxoW/N4dLa/Wczj59/
+MXylYeGW9Q+zPnyub/xSpH2ritV0Xl5yqrvpeX3hgfSNZ4Idpa9yHi0RO29cyqXD
+RvH31XWB6dHippEjl+cX6W82L00WnFFye1bNehuaGqgpHrq/+GNfe667aQWC1y0F
+7QPDtbtbL2T3L++Bd/U/AQ==
+=GAWw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vbakaitis
+
+==================================================================
