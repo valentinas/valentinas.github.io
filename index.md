@@ -1,1 +1,5 @@
-Home..
+---
+title: Home
+--
+
+Hi!
