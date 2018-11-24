@@ -4,7 +4,7 @@ title: Sauerkraut
 ### Fermenting Sauerkraut
 
 **Ingredients**:
-* 10 kg of white cabbage (cleand)
+* 10 kg of white cabbage (cleaned)
 * 1 kg of carrots
 * 250g (2.5% of weight of all other ingredients) of non-iodized salt
 * 50g of caraway seed
@@ -18,8 +18,8 @@ title: Sauerkraut
 1. Use your fists to compact the cabbage, so that all of it is covered in liquid
 1. Put a big plate to hold the cabbage submerged. Put something heavy on top of the plat (e.g. jar filled with water) to hold everything down
 1. Leave the fermenting vessel to ferment for 1 week in 19C temperature
-1. After 1 week of fermenting you can start tasting the cabbage, if you want it to be more sauer - leave it for longer.
-1. Once you are happy with the taste, you can put it in sanitized jars and keep it in the fridge. It shouold keep in the fridge for at least 6 to 9 months without spoiling.
+1. After 1 week of fermenting you can start tasting the cabbage, if you want it to be more sour - leave it for longer.
+1. Once you are happy with the taste, you can put it in sanitized jars and keep it in the fridge. It should keep in the fridge for at least 6 to 9 months without spoiling.
 
 Some notes:
 
