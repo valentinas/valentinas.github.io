@@ -45,7 +45,7 @@ systemctl start your_new.service
 ```
 
 
-**Enabling the schedule**
+**Enabling the timer**
 
 ```
 systemctl start date.timer
