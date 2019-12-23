@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script>
+    checklists = JSON.parse(window.localStorage.getItem("checklists")) || {
+	"wear": {
+	    "name":"wear",
+	    "required":true,
+	    "items":{
+		"merino_undies": {},
+		"merino_sock": {},
+		"light_pants": {},
+		"t-shirt": {},
+		"merino_hoodie": {},
+		"hiking_shoes": {},
+		"plb": {},
+		"phone": {},
+		"watch": {},
+		"wallet": {}
+	    }
+	},
+	"camping": {
+	    "name":"camping",
+	    "required":true,
+	    "items":{
+		"Hut pass": {},
+		"Tent": {},
+		"Sleeping mat": {},
+		"Sleeping bag": {},
+		"Camping pillow": {},
+		"Knife": {},
+		"Spork": {},
+		"Gas stove": {},
+		"Gas": {},
+		"Lighter": {},
+		"Pot for boiling water": {},
+		"Camping cup": {},
+		"Map + Compass": {},
+		"Trekking pole": {},
+		"Power bank": {},
+		"Phone charging cable": {},
+		"Drinking bladder": {},
+		"Extra water": {},
+		"Fishing tackle": {}
+	    }
+	},
+	"clothes": {
+	    "name":"clothes",
+	    "required":true,
+	    "items":{
+		"Base, thermal and top layers": {},
+		"Waterproof layer": {},
+		"Breathable socks and undies": {},
+		"Hiking shoes": {},
+		"Gloves": {},
+		"Warm Hat": {},
+		"Bug spray": {},
+		"First aid kit": {},
+		"Head torch and cable": {},
+		"Sunglasses": {},
+		"Backpack rain cover": {}
+	    }
+	},
+	"gold": {
+	    "name":"gold",
+	    "required":true,
+	    "items":{
+		"Sluice": {},
+		"Shovel": {},
+		"Little spade": {},
+		"Bucket x2": {},
+		"Pan": {},
+		"Sucker bottle": {},
+		"Sailing gloves": {},
+		"Gumboots/waders": {}
+	    }
+	},
+	"hunt": {
+	    "name":"hunt",
+	    "required":true,
+	    "items":{
+		"Bright vest and hat": {},
+		"Huntin permit": {},
+		"Binoculars": {},
+		"Zip ties": {},
+		"Rangefinder": {},
+		"Gun": {},
+		"Ammo": {},
+		"Meat bags": {},
+		"Knife for field dressing": {},
+		"Hatchet": {}
+	    }
+	},
+	"food": {
+	    "name":"food",
+	    "required":true,
+	    "items":{
+		"Water": {},
+		"Freeze dried food": {},
+		"Oats for breakfast": {},
+		"Scroggin": {},
+		"Snickers": {},
+		"Tea": {},
+		"Apples": {},
+		"Cheese": {},
+		"Strong whiskey": {}
+	    }
+	},
+	"toiletries": {
+	    "name":"toiletries",
+	    "required":true,
+	    "items":{
+		"Toilet paper": {},
+		"Towel": {},
+		"Toothbrush": {},
+		"Tooth floss": {},
+		"Toothpaste": {},
+		"Sunscreen": {},
+		"Soap (optional)": {}
+	    }
+	}
+    };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        
+        function create_checklists(){
+            Object.keys(checklists).map(create_checklist)
+	}
+
+        function create_checklist(key){
+	    fieldset = jQuery("<fieldset id='" + key + "'><legend>" + key + "</legend></fieldset>")
+            items = Object.keys(checklists[key].items).map(create_item(key))
+	    for (var i in items) {
+                fieldset.append(items[i])
+	    }
+	    jQuery("body").append(fieldset)
+	}
+
+        function create_item(checklist_key){
+            return function (item_key){
+                checked = checklists[checklist_key].items[item_key].checked ? "checked":""
+                return jQuery("<input " + checked + " onchange='click_checkbox(event)' type='checkbox' id='" + item_key + "'><label for='" + item_key + "'>" + item_key + "</label><br/>")
+            }
+        }
+
+	function click_checkbox(event){
+           item = event.target
+           checklist = (jQuery(item)[0].parentElement)
+           checklists[checklist.id].items[item.id].checked = !checklists[checklist.id].items[item.id].checked
+           window.localStorage.setItem("checklists", JSON.stringify(checklists))
+        }
+
+        jQuery(document).ready(create_checklists)
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+<body>
+    <div id="list">
+    </div>
+</body>
