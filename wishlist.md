@@ -8,6 +8,7 @@ Old stuff:
   - [Fiordland packs 45l pack](https://fiordlandpacks.nz/shop/45l-pack/)
   - [Cactus outdoors huntaway pack](https://cactusoutdoor.co.nz/products/huntaway)
   - [Osprey Archeon 30 mens](https://www.osprey.com/us/en/product/archeon-30-men-s-ARCHEON30MS20_198.html)
+  - [Ubiquiti UniFi UCK-G2-PLUS Cloud Key Gen2](https://www.pbtech.co.nz/product/NAPUBI6002/Ubiquiti-UniFi-UCK-G2-PLUS-Cloud-Key-Gen2-PLUS?gclid=Cj0KCQiAzfuNBhCGARIsAD1nu-__u4-576wG52HRqw2PYVpbnr4k1YMKhwTmxi17FUb3Z8BVkiMK9xYaApeqEALw_wcB)
 {% endcomment %}
 
 If you want to give me a present, here is a handy wishlist of items that I would love to receive:
@@ -16,7 +17,6 @@ If you want to give me a present, here is a handy wishlist of items that I would
 - Road Bike saddle (e.g. [this](https://www.evocycles.co.nz/Product/343313/product?variation_id=343314&gclid=Cj0KCQiA5OuNBhCRARIsACgaiqVns9hwSWolKDVBgFhhyBC02jR3RYoLAO27eNLPfwXSvBRk7jm1-8MaAtRrEALw_wcB))
 - [Lowa Active Creme](https://lowa.co.nz/products/lowa-active-creme-75ml)
 - [Lowa Waterstop](https://www.huntingandfishing.co.nz/lowa-water-stop-pro-spray-300ml.html)
-- [Ubiquiti UniFi UCK-G2-PLUS Cloud Key Gen2](https://www.pbtech.co.nz/product/NAPUBI6002/Ubiquiti-UniFi-UCK-G2-PLUS-Cloud-Key-Gen2-PLUS?gclid=Cj0KCQiAzfuNBhCGARIsAD1nu-__u4-576wG52HRqw2PYVpbnr4k1YMKhwTmxi17FUb3Z8BVkiMK9xYaApeqEALw_wcB)
 - [Small lockable rack mount enclosure](https://www.jaycar.co.nz/6u-rack-mount-enclosure-flatpack/p/HB5170?gclid=Cj0KCQiAzfuNBhCGARIsAD1nu-9Qrhs7d5i1JwuNQB7OAdR6z6poAvQRrYVjnAQ0ru7romrTF-X_E1YaAjP3EALw_wcB)
 - Range Finder. There are some [cheap ones ona AliExpress](https://www.aliexpress.com/wholesale?SearchText=rang+finder) and some more expensive ones at [Gun City](https://www.guncity.com/optics/other/rangefinders?sort=price1%20asc) or [Hunting and Fishing](https://www.huntingandfishing.co.nz/hunting-gear/optics/rangefinders.html?sort_by=price_min_to_max)
 - Socks (size 12 US) or underwear (size large)
